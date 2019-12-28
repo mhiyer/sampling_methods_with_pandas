@@ -30,7 +30,7 @@ def create_dataset():
     return(df)
     
 
-# create bootstrap class
+# create class
 class StratifiedSampling:
     # initialize
     def __init__(self, dataset, ratio, attribute):
