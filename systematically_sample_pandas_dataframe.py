@@ -30,7 +30,7 @@ def create_dataset():
     return(data)
     
 
-# create bootstrap class
+# create class
 class SystematicSampling:
     # initialize
     def __init__(self, dataset, k):
