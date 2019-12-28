@@ -32,7 +32,7 @@ def create_dataset():
     return(data)
     
 
-# create bootstrap class
+# create class
 class RandomSampling:
     # initialize
     def __init__(self, dataset, target_size):
